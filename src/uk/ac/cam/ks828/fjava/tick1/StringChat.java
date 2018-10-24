@@ -53,9 +53,8 @@ public class StringChat {
 				} catch (IOException ioe) {
 					System.err.println("Cannot connect to " +  server + " on port " + port);
 				}
-			} else {
+			} else 
 				System.err.println("This application requires two arguments: <machine> <port>");
-			}
 		} catch (NumberFormatException e) {
 			System.err.println("This application requires two arguments: <machine> <port>");
 		}
