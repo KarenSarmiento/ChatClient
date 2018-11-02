@@ -1,4 +1,4 @@
-package uk.ac.cam.cl.fjava.messages;
+package uk.ac.cam.ks828.fjava.messages;
 
 
 public class NewMessageType extends Message {
